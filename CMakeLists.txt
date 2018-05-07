@@ -429,7 +429,7 @@ endif()
 
 include_directories(${PROJECT_SOURCE_DIR})
 include_directories(${PROJECT_SOURCE_DIR}/include)
-include_directories(SYSTEM ${PROJECT_SOURCE_DIR}/third-party/gtest-1.7.0/fused-src)
+include_directories(${PROJECT_SOURCE_DIR}/third-party/gtest-1.7.0/fused-src)
 find_package(Threads REQUIRED)
 
 add_subdirectory(third-party/gtest-1.7.0/fused-src/gtest)
